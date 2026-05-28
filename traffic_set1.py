@@ -1,5 +1,4 @@
 import pandas as pd
-import git
 
 # trainning 
 data_train = pd.read_csv("./trafficc_data/train.csv")
