@@ -110,6 +110,7 @@ for epoch in range(41):
         image , label = image.to(device) , label.to(device)
 
         optimmizer.zero_grad()
+        
         pred = model(image)
         loss = creatrian(pred , label)
         loss.backward()
